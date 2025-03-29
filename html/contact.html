@@ -3,43 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="stylesheet" href="./assets/contact.css">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="./../assets/styles/style.css">
+    <link rel="stylesheet" href="./../assets/styles/index.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <nav>
-            <a href="index.html">
-                <img src="./assets/Logo/logo.png" alt="Logo de Glowely"></a>
-            <a>href="index.html">Acceuil</a>
-            <div></div>
-            <a href="femme.html">Femme</a>
-            <a href="homme.html">Homme</a>
-            <a href="produit.html">
-                <img src="./assets/Logo/recherche.png" alt="recherche">
-            </a>
-            <img src="./assets/Logo/favoris.png" alt="Logo de coeur">
-            <img src="./assets/Logo/panier.png" alt="Logo de panier">
-            <img src="./assets/Logo/contact.png" alt="Logo de contact">
+        <div class="header-conteneur">
+            <div class="logo">   
+                <img src="./../assets/Logo/logo.png" alt="Logo de Glowely">
+             </div>
+            <nav>
+             <ul>   
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="femme.html">Femme</a></li>
+            <li><a href="homme.html">Homme</a></li>
+             </ul>
+            </nav>
+        <div class="header-barre-de-recherche">
+            <input type="text"  placeholder="Recherche">
+            <button>Rechercher</button>
         </div>
-        </nav>
+        <div class="header-icones">
+            <a href="">
+            <img src="./../assets/Logo/favoris.png" alt="Logo de coeur"></a>
+            <a href="">
+            <img src="./../assets/Logo/panier.png" alt="Logo de panier"></a>
+            <a href="contact.html">
+            <img src="./../assets/Logo/contact.png" alt="Logo de contact"></a>
+        </div>
+        </div>
     </header>
+    <!-- Main -->
    
     <!-- Footer -->
     <footer>
-        <nav>
-            
-        <img src="./assets/Logo/nosboutiques.png" alt="Logo de nosboutiques">
-            <a href="wwww.instagram.com" target="blank" class="lien-icone">
-                <img src="./assets/Logo/instagram.png" alt="Logo de Instagram">
-            </a>
-            <a href="contact.html">
-                <img src="./assets/Logo/contact.png" alt="Logo de contact">
-            </a>
-
-        </nav>
+        <div class="footer-conteneur">
+         <div class="footer-icones">
+        <img src="./../assets/Logo/nosboutiques.png" alt="Logo de nosboutiques">
+        <a href="">Nos boutiques</a>
+        </div>
+        <div class="footer-icones">
+        <img src="./../assets/Logo/instagram.png" alt="Logo de Instagram">
+            <a href="wwww.instagram.com" target="blank" class="lien-icone">Suivez-nous !</a>
+        </div>
+            <div class="footer-icones">
+            <img src="./../assets/Logo/contact.png" alt="Logo de contact">
+            <a href="contact.html">Contact</a>
+        </div> 
+    </div>
     </footer>
     
 </body>
